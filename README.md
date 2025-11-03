@@ -2,7 +2,7 @@
 
 ## TL;DR
 
-Modèle prédictif XGBoost avec **89% de précision (R² = 0.8883)** pour anticiper la demande de vélos. Identification des facteurs clés via SHAP : l'heure de la journée (90.73), les heures de pointe (39.93) et la température (35.21) sont les variables les plus impactantes. Tests statistiques rigoureux confirmant l'effet significatif de la saison (p < 0.001, ε² = 0.0640, 6.4% de variance) et de la météo (p < 0.001, ε² = 0.0186, 1.86% de variance). 
+Modèle prédictif XGBoost avec **89% de précision** pour anticiper la demande de vélos. Identification des facteurs clés : l'heure de la journée, les heures de pointe et la température sont les variables les plus impactantes. Tests statistiques rigoureux confirmant l'effet significatif de la saison et de la météo. 
 
 **Recommandations clés**: Augmenter la capacité aux heures de pointe (7h-9h, 17h-19h), ajuster selon météo, optimiser par saison et implémenter une tarification dynamique basée sur les prédictions.
 
